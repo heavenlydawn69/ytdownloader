@@ -27,7 +27,8 @@ This Python application is built using Streamlit and allows users to download Yo
 
 ## External API Integration
 
-- The application utilizes the `youtube86.p.rapidapi.com` API to resolve video URLs to downloadable media files.
+- The application utilizes the `Youtube API from Rapid api` API to resolve video URLs to downloadable media files.
+- Make sure to subscribe to <a href="https://rapidapi.com/3205/api/youtube86">the api to use the features.</a>
 - API requests include necessary headers: Content-Type, X-Forwarded-For, X-RapidAPI-Key, and X-RapidAPI-Host.
 
 ## Security Notes
