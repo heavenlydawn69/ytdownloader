@@ -1,15 +1,15 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import requests
 
-def configure():
-    load_dotenv()
+# def configure():
+#     load_dotenv()
 
 rapid_api_key = os.getenv('RAPID_API_KEY')
 
 def download_video(url):
-    configure()
+    # configure()
     api_url = "https://youtube86.p.rapidapi.com/api/youtube/links"
     headers = {
         "content-type": "application/json",
